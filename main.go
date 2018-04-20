@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const version = "latest"
+const version = "v1"
 
 func helloworld(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello World, %s", version)
